@@ -1,0 +1,21 @@
+﻿Date,Time,Latency (ms),PacketLoss (%),BandwidthUsage (Mbps),ResourceUtilization (%),DeviceIP,ResponseTime (ms),Availability,PingStatus,SNMPDevice,InterfaceTraffic (Mbps),SecurityEvent,SourceIP,DestinationIP,Description,ConnectedDevice
+01-10-2023,08:00:00,15,0.5,120,75,192.168.1.10,2,Available,Success,Router1,100,Login Success,192.168.1.5,192.168.1.10,User 'admin' logged in,PC1
+01-10-2023,09:00:00,18,0.7,110,80,192.168.1.20,3,Available,Success,Switch1,80,Login Success,192.168.1.15,192.168.1.20,User 'admin' logged in,Server1
+01-10-2023,10:00:00,20,0.8,105,85,192.168.1.30,4,Available,Success,Firewall1,60,Failed Login,192.168.1.25,192.168.1.30,User 'user1' failed to log in,Router1
+01-10-2023,11:00:00,16,0.6,115,75,192.168.1.40,3,Unavailable,Timeout,Switch2,70,Unauthorized Access,192.168.1.35,192.168.1.40,Unauthorized access attempt,PC2
+01-10-2023,12:00:00,14,0.4,125,70,192.168.1.50,2,Available,Success,Server2,90,Login Success,192.168.1.45,192.168.1.50,User 'user1' logged in,Switch3
+01-10-2023,13:00:00,19,0.7,112,78,192.168.1.60,3,Unavailable,Timeout,Router2,95,Intrusion Attempt,192.168.1.55,192.168.1.60,Intrusion detected,PC3
+01-10-2023,14:00:00,17,0.6,118,80,192.168.1.70,2,Available,Success,Switch4,85,Login Success,192.168.1.65,192.168.1.70,User 'user1' logged in,Server3
+01-10-2023,15:00:00,22,0.8,102,82,192.168.1.80,3,Available,Success,Firewall2,55,Login Success,192.168.1.75,192.168.1.80,User 'user2' logged in,Switch5
+01-10-2023,16:00:00,23,0.9,100,88,192.168.1.90,4,Unavailable,Timeout,Router3,50,Login Success,192.168.1.85,192.168.1.90,User 'user1' logged in,PC4
+01-10-2023,17:00:00,21,0.8,105,85,192.168.1.100,3,Available,Success,Switch6,70,Login Success,192.168.1.95,192.168.1.100,User 'user2' logged in,Server4
+01-10-2023,18:00:00,15,0.5,120,75,192.168.1.110,2,Available,Success,Router4,100,Login Success,192.168.1.105,192.168.1.110,User 'admin' logged in,PC5
+01-10-2023,19:00:00,18,0.7,110,80,192.168.1.120,3,Available,Success,Switch7,80,Intrusion Attempt,192.168.1.115,192.168.1.120,Intrusion detected,Server5
+01-10-2023,20:00:00,20,0.8,105,85,192.168.1.130,4,Available,Success,Firewall3,60,Login Success,192.168.1.125,192.168.1.130,User 'user1' logged in,Router5
+02-10-2023,08:00:00,16,0.6,115,75,192.168.1.140,3,Unavailable,Timeout,Switch5,70,Login Success,192.168.1.135,192.168.1.140,User 'admin' logged in,PC6
+02-10-2023,09:00:00,14,0.4,125,70,192.168.1.150,2,Available,Success,Server6,90,Login Success,192.168.1.145,192.168.1.150,User 'user1' failed to log in,Switch9
+02-10-2023,10:00:00,19,0.7,112,78,192.168.1.160,3,Unavailable,Timeout,Router6,95,Login Success,192.168.1.155,192.168.1.160,User 'admin' logged in,PC7
+02-10-2023,11:00:00,17,0.6,118,80,192.168.1.170,2,Available,Success,Switch6,85,Unauthorized Access,192.168.1.165,192.168.1.170,Unauthorized access to server detected,Server4
+02-10-2023,12:00:00,22,0.8,102,82,192.168.1.180,3,Available,Success,Firewall4,55,Login Success,192.168.1.175,192.168.1.180,User 'user2' logged in,Switch11
+02-10-2023,13:00:00,23,0.9,100,88,192.168.1.190,4,Unavailable,Timeout,Router7,50,Login Success,192.168.1.185,192.168.1.190,User 'admin' logged in,PC8
+02-10-2023,14:00:00,21,0.8,105,85,192.168.1.200,3,Available,Success,Switch6,70,Login Success,192.168.1.195,192.168.1.200,User 'user2' logged in,Server8

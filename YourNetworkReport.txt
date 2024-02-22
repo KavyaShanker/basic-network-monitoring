@@ -1,0 +1,36 @@
+		Your Network Report
+--------------------------------------
+
+Results of anomaly detection: 
+No anomalies found.
+
+Results of bandwidth monitoring: 
+Device utilizing maximum bandwidth: Server2	((Bandwidth: 125.0 Mbps))
+Average Bandwidth Utilization: 111.16666666666667 Mbps
+
+Results of security check: 
+Security Event: Failed Login
+Source IP: 192.168.1.30
+Affected Device: Router1
+Description: User 'user1' failed to log in
+
+Security Event: Unauthorized Access
+Source IP: 192.168.1.40
+Affected Device: PC2
+Description: Unauthorized access attempt
+
+Security Event: Intrusion Attempt
+Source IP: 192.168.1.60
+Affected Device: PC3
+Description: Intrusion detected
+
+Security Event: Intrusion Attempt
+Source IP: 192.168.1.120
+Affected Device: Server5
+Description: Intrusion detected
+
+Security Event: Unauthorized Access
+Source IP: 192.168.1.170
+Affected Device: Server4
+Description: Unauthorized access to server detected
+
